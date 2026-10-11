@@ -39,4 +39,7 @@
     <Project Path="ProductService/ProductService.csproj" Id="3f206d5f-6775-4190-9814-52ee9b251519" />
     <Project Path="ProductService.Test/ProductService.Test.csproj" Id="2bb7a605-d28d-4d6d-9e47-666d520e45db" />
   </Folder>
+  <Project Path="AgentPortalApiGateway/AgentPortalApiGateway.csproj" />
+  <Project Path="BlazorWasmClient/BlazorWasmClient.csproj" />
+  <Project Path="DashboardService.Api/DashboardService.Api.csproj" />
 </Solution>
