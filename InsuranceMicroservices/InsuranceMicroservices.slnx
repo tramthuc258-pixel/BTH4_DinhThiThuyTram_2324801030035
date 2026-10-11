@@ -1,9 +1,4 @@
 <Solution>
-  <Folder Name="/AgentPortalApiGateway/">
-    <Project Path="AgentPortalApiGateway.Api/AgentPortalApiGateway.Api.csproj" />
-    <Project Path="AgentPortalApiGateway/AgentPortalApiGateway.csproj" />
-    <Project Path="AgentPortalApiGateway.Test/AgentPortalApiGateway.Test.csproj" />
-  </Folder>
   <Folder Name="/AuthService/">
     <Project Path="AuthService.Api/AuthService.Api.csproj" />
     <Project Path="AuthService/AuthService.csproj" />
