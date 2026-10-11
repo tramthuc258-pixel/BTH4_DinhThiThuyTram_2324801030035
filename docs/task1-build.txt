@@ -1,0 +1,33 @@
+  AgentPortalApiGateway.Api -> D:\KT_thietkephanmem\InsuranceMicroservices\InsuranceMicroservices\AgentPortalApiGateway.Api\bin\Debug\net8.0\AgentPortalApiGateway.Api.dll
+  AgentPortalApiGateway -> D:\KT_thietkephanmem\InsuranceMicroservices\InsuranceMicroservices\AgentPortalApiGateway\bin\Debug\net8.0\AgentPortalApiGateway.dll
+  AgentPortalApiGateway.Test -> D:\KT_thietkephanmem\InsuranceMicroservices\InsuranceMicroservices\AgentPortalApiGateway.Test\bin\Debug\net8.0\AgentPortalApiGateway.Test.dll
+  AuthService.Api -> D:\KT_thietkephanmem\InsuranceMicroservices\InsuranceMicroservices\AuthService.Api\bin\Debug\net8.0\AuthService.Api.dll
+  AuthService -> D:\KT_thietkephanmem\InsuranceMicroservices\InsuranceMicroservices\AuthService\bin\Debug\net8.0\AuthService.dll
+  AuthService.Test -> D:\KT_thietkephanmem\InsuranceMicroservices\InsuranceMicroservices\AuthService.Test\bin\Debug\net8.0\AuthService.Test.dll
+  ChatService.Api -> D:\KT_thietkephanmem\InsuranceMicroservices\InsuranceMicroservices\ChatService.Api\bin\Debug\net8.0\ChatService.Api.dll
+  ChatService -> D:\KT_thietkephanmem\InsuranceMicroservices\InsuranceMicroservices\ChatService\bin\Debug\net8.0\ChatService.dll
+  ChatService.Test -> D:\KT_thietkephanmem\InsuranceMicroservices\InsuranceMicroservices\ChatService.Test\bin\Debug\net8.0\ChatService.Test.dll
+  DocumentService.Api -> D:\KT_thietkephanmem\InsuranceMicroservices\InsuranceMicroservices\DocumentService.Api\bin\Debug\net8.0\DocumentService.Api.dll
+  DocumentService -> D:\KT_thietkephanmem\InsuranceMicroservices\InsuranceMicroservices\DocumentService\bin\Debug\net8.0\DocumentService.dll
+  DocumentService.Test -> D:\KT_thietkephanmem\InsuranceMicroservices\InsuranceMicroservices\DocumentService.Test\bin\Debug\net8.0\DocumentService.Test.dll
+  PaymentService.Api -> D:\KT_thietkephanmem\InsuranceMicroservices\InsuranceMicroservices\PaymentService.Api\bin\Debug\net8.0\PaymentService.Api.dll
+  PaymentService -> D:\KT_thietkephanmem\InsuranceMicroservices\InsuranceMicroservices\PaymentService\bin\Debug\net8.0\PaymentService.dll
+  PaymentService.Test -> D:\KT_thietkephanmem\InsuranceMicroservices\InsuranceMicroservices\PaymentService.Test\bin\Debug\net8.0\PaymentService.Test.dll
+  PolicySearchService.Api -> D:\KT_thietkephanmem\InsuranceMicroservices\InsuranceMicroservices\PolicySearchService.Api\bin\Debug\net8.0\PolicySearchService.Api.dll
+  PolicySearchService -> D:\KT_thietkephanmem\InsuranceMicroservices\InsuranceMicroservices\PolicySearchService\bin\Debug\net8.0\PolicySearchService.dll
+  PolicySearchService.Test -> D:\KT_thietkephanmem\InsuranceMicroservices\InsuranceMicroservices\PolicySearchService.Test\bin\Debug\net8.0\PolicySearchService.Test.dll
+  PolicyService.Api -> D:\KT_thietkephanmem\InsuranceMicroservices\InsuranceMicroservices\PolicyService.Api\bin\Debug\net8.0\PolicyService.Api.dll
+  PolicyService -> D:\KT_thietkephanmem\InsuranceMicroservices\InsuranceMicroservices\PolicyService\bin\Debug\net8.0\PolicyService.dll
+  PolicyService.Test -> D:\KT_thietkephanmem\InsuranceMicroservices\InsuranceMicroservices\PolicyService.Test\bin\Debug\net8.0\PolicyService.Test.dll
+  PricingService.Api -> D:\KT_thietkephanmem\InsuranceMicroservices\InsuranceMicroservices\PricingService.Api\bin\Debug\net8.0\PricingService.Api.dll
+  PricingService -> D:\KT_thietkephanmem\InsuranceMicroservices\InsuranceMicroservices\PricingService\bin\Debug\net8.0\PricingService.dll
+  PricingService.Test -> D:\KT_thietkephanmem\InsuranceMicroservices\InsuranceMicroservices\PricingService.Test\bin\Debug\net8.0\PricingService.Test.dll
+  ProductService.Api -> D:\KT_thietkephanmem\InsuranceMicroservices\InsuranceMicroservices\ProductService.Api\bin\Debug\net8.0\ProductService.Api.dll
+  ProductService -> D:\KT_thietkephanmem\InsuranceMicroservices\InsuranceMicroservices\ProductService\bin\Debug\net8.0\ProductService.dll
+  ProductService.Test -> D:\KT_thietkephanmem\InsuranceMicroservices\InsuranceMicroservices\ProductService.Test\bin\Debug\net8.0\ProductService.Test.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:02.96

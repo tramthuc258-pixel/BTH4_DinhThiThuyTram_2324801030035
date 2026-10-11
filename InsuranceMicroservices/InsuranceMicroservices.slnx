@@ -1,0 +1,47 @@
+<Solution>
+  <Folder Name="/AgentPortalApiGateway/">
+    <Project Path="AgentPortalApiGateway.Api/AgentPortalApiGateway.Api.csproj" />
+    <Project Path="AgentPortalApiGateway/AgentPortalApiGateway.csproj" />
+    <Project Path="AgentPortalApiGateway.Test/AgentPortalApiGateway.Test.csproj" />
+  </Folder>
+  <Folder Name="/AuthService/">
+    <Project Path="AuthService.Api/AuthService.Api.csproj" />
+    <Project Path="AuthService/AuthService.csproj" />
+    <Project Path="AuthService.Test/AuthService.Test.csproj" />
+  </Folder>
+  <Folder Name="/ChatService/">
+    <Project Path="ChatService.Api/ChatService.Api.csproj" />
+    <Project Path="ChatService/ChatService.csproj" />
+    <Project Path="ChatService.Test/ChatService.Test.csproj" />
+  </Folder>
+  <Folder Name="/DocumentService/">
+    <Project Path="DocumentService.Api/DocumentService.Api.csproj" />
+    <Project Path="DocumentService/DocumentService.csproj" />
+    <Project Path="DocumentService.Test/DocumentService.Test.csproj" />
+  </Folder>
+  <Folder Name="/PaymentService/">
+    <Project Path="PaymentService.Api/PaymentService.Api.csproj" Id="6f2d12ce-5397-4252-8931-f7b3f096c661" />
+    <Project Path="PaymentService/PaymentService.csproj" Id="3458ff64-440d-4dcb-bdfc-ba717ad73784" />
+    <Project Path="PaymentService.Test/PaymentService.Test.csproj" Id="8a7a83af-f616-4fe6-83f2-d93ec9b1d7d3" />
+  </Folder>
+  <Folder Name="/PolicyService/">
+    <Project Path="PolicyService.Api/PolicyService.Api.csproj" />
+    <Project Path="PolicyService/PolicyService.csproj" />
+    <Project Path="PolicyService.Test/PolicyService.Test.csproj" />
+  </Folder>
+  <Folder Name="/PolicySearchService/">
+    <Project Path="PolicySearchService.Api/PolicySearchService.Api.csproj" />
+    <Project Path="PolicySearchService/PolicySearchService.csproj" />
+    <Project Path="PolicySearchService.Test/PolicySearchService.Test.csproj" />
+  </Folder>
+  <Folder Name="/PricingService/">
+    <Project Path="PricingService.Api/PricingService.Api.csproj" Id="f57dca7b-febf-4147-a437-1ecc72fe0143" />
+    <Project Path="PricingService/PricingService.csproj" Id="ef18a0e2-b03c-4246-a191-3f1f0afa60ff" />
+    <Project Path="PricingService.Test/PricingService.Test.csproj" Id="94838ab2-b00f-4a96-bf10-930b40634820" />
+  </Folder>
+  <Folder Name="/ProductService/">
+    <Project Path="ProductService.Api/ProductService.Api.csproj" Id="219f4508-3e71-43c7-a7bc-075fd66e7798" />
+    <Project Path="ProductService/ProductService.csproj" Id="3f206d5f-6775-4190-9814-52ee9b251519" />
+    <Project Path="ProductService.Test/ProductService.Test.csproj" Id="2bb7a605-d28d-4d6d-9e47-666d520e45db" />
+  </Folder>
+</Solution>
