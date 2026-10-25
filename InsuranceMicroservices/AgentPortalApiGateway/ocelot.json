@@ -135,7 +135,7 @@
     "ServiceDiscoveryProvider": {
       "Type": "Eureka",
       "Host": "localhost",
-      "Port": "8761"
+      "Port": 8761
     }
   }
 }

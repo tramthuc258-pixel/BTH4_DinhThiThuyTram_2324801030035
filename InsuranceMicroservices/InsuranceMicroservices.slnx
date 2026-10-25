@@ -9,6 +9,11 @@
     <Project Path="ChatService.Test/ChatService.Test.csproj" />
     <Project Path="ChatService/ChatService.csproj" />
   </Folder>
+  <Folder Name="/DashboardService/">
+    <Project Path="DashboardService.Api/DashboardService.Api.csproj" />
+    <Project Path="DashboardService.Test/DashboardService.Test.csproj" />
+    <Project Path="DashboardService/DashboardService.csproj" />
+  </Folder>
   <Folder Name="/DocumentService/">
     <Project Path="DocumentService.Api/DocumentService.Api.csproj" />
     <Project Path="DocumentService.Test/DocumentService.Test.csproj" />
@@ -42,5 +47,4 @@
   </Folder>
   <Project Path="AgentPortalApiGateway/AgentPortalApiGateway.csproj" />
   <Project Path="BlazorWasmClient/BlazorWasmClient.csproj" />
-  <Project Path="DashboardService.Api/DashboardService.Api.csproj" />
 </Solution>

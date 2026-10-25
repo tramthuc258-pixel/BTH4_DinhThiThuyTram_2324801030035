@@ -41,8 +41,8 @@ public class Program
                 s.AddCors();
                 s.AddAuthentication(x =>
                     {
-                        x.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
-                        x.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme;
+                        x.DefaultAuthenticateScheme = "ApiSecurity";
+                        x.DefaultChallengeScheme = "ApiSecurity";
                     })
                     .AddJwtBearer("ApiSecurity", x =>
                     {
@@ -61,17 +61,20 @@ public class Program
             .Configure(a =>
             {
                 var appSettings = new AppSettings();
-                a.ApplicationServices.GetService<IConfiguration>()
+
+                a.ApplicationServices
+                    .GetRequiredService<IConfiguration>()
                     .GetSection("AppSettings")
                     .Bind(appSettings);
 
-                a.UseCors
-                (b => b
+                a.UseCors(b => b
                     .WithOrigins(appSettings.AllowedChatOrigins)
                     .AllowAnyMethod()
                     .AllowAnyHeader()
                     .AllowCredentials()
                 );
+
+                a.UseAuthentication();
                 a.UseOcelot().Wait();
             })
             .Build();
