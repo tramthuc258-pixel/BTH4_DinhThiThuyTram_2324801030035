@@ -1,6 +1,6 @@
-namespace PolicyService.Api.Commands;
+﻿namespace PolicyService.Api.Commands;
 
 public class CreatePolicyResult
 {
-    public string PolicyNumber { get; set; } = string.Empty;
+    public string PolicyNumber { get; set; }
 }

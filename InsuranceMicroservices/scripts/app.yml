@@ -86,5 +86,8 @@ services:
     build: ../Web
     image: dotnet-web-vue
     container_name: dotnet-web-vue
+    depends_on:
+    - dotnet-agent-portal-gateway
+    - dotnet-auth-service
     ports:
     - 8080:80

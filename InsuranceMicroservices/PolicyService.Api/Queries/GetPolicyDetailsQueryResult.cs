@@ -1,8 +1,8 @@
-using PolicyService.Api.Queries.Dtos;
+using PolicyService.Api.Queries.Dto;
 
 namespace PolicyService.Api.Queries;
 
 public class GetPolicyDetailsQueryResult
 {
-    public PolicyDto Policy { get; set; } = new();
+    public PolicyDetailsDto Policy { get; set; }
 }

@@ -1,12 +1,30 @@
+﻿using System;
+using System.Collections.Generic;
+using MediatR;
 using PolicyService.Api.Commands.Dtos;
 
 namespace PolicyService.Api.Commands;
 
-public class CreateOfferCommand
+public class CreateOfferCommand : IRequest<CreateOfferResult>
 {
-    public string ProductCode { get; set; } = string.Empty;
+    public string ProductCode { get; set; }
     public DateTime PolicyFrom { get; set; }
     public DateTime PolicyTo { get; set; }
-    public IList<string> SelectedCovers { get; set; } = new List<string>();
-    public IList<QuestionAnswer> Answers { get; set; } = new List<QuestionAnswer>();
+    public List<string> SelectedCovers { get; set; }
+    public List<QuestionAnswer> Answers { get; set; }
+}
+
+public class CreateOfferByAgentCommand : CreateOfferCommand, IRequest<CreateOfferResult>
+{
+    public CreateOfferByAgentCommand(string agentLogin, CreateOfferCommand baseCmd)
+    {
+        AgentLogin = agentLogin;
+        ProductCode = baseCmd.ProductCode;
+        PolicyFrom = baseCmd.PolicyFrom;
+        PolicyTo = baseCmd.PolicyTo;
+        SelectedCovers = baseCmd.SelectedCovers;
+        Answers = baseCmd.Answers;
+    }
+
+    public string AgentLogin { get; set; }
 }
